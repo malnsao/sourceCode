@@ -1,6 +1,7 @@
 const INIT_REDUX = "@@TYPE/REDUX_INIT";
 
 export default function createStore(reducer) {
+
     let state;
     let listeners = [];
     function getState(){

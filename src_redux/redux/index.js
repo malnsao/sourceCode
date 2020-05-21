@@ -1,6 +1,6 @@
 import createStore from "./createStore";
 import combineReducers from "./combineReducers";
-import bindActionCreators from "./bindActionCreators";
+import bindActionCreateors from "./bindActionCreateors";
 import applyMiddleware from "./applyMiddleware";
 import compose from "./compose";
 
@@ -10,7 +10,7 @@ import compose from "./compose";
 export {
     createStore,
     combineReducers,
-    bindActionCreators,
+    bindActionCreateors,
     applyMiddleware,
     compose
 }
